@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Quiz Mania
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quiz Mania is a React project developed using Vite that brings the excitement of quizzes to your fingertips. With Quiz Mania, you can challenge yourself with quizzes sourced from the Open Trivia DB API. This project utilizes React Query for efficient data fetching, Context API to manage quiz options such as category, difficulty, and type, and Tailwind CSS for stylish and responsive design. Additionally, NextUI components enhance the user interface with pre-built elements like buttons.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dynamic Quizzes: Fetch quizzes from the Open Trivia DB API based on selected options.
+Customizable Options: Choose quiz category, difficulty, and type to tailor your quiz experience.
+Interactive Interface: Enjoy smooth navigation and engaging user experience with React Query and Context API.
+Stylish Design: Utilize Tailwind CSS to create visually appealing and responsive quiz layouts.
+Enhanced Components: Benefit from NextUI's pre-designed components like buttons for a polished UI.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository ``git clone <repository-url>``
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory ``cd quizmania``
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+3. Install dependencies ``npm install``
+
+## Usage
+
+1. Run the development server ``npm run dev``
+
+## Technologies Used
+
+1.React
+
+2.Vite
+
+3.React Query
+
+4.Tailwind CSS
+
+5.NextUI
+
+# Acknowledgments
+
+Special thanks to the creators of Open Trivia DB API for providing a vast collection of quiz questions.
+Inspired by the love for quizzes and learning.
