@@ -1,4 +1,4 @@
-# Quiz Mania
+# Quizmania
 
 Quiz Mania is a React project developed using Vite that brings the excitement of quizzes to your fingertips. With Quiz Mania, you can challenge yourself with quizzes sourced from the Open Trivia DB API. This project utilizes React Query for efficient data fetching, Context API to manage quiz options such as category, difficulty, and type, and Tailwind CSS for stylish and responsive design. Additionally, NextUI components enhance the user interface with pre-built elements like buttons.
 
@@ -34,6 +34,8 @@ Enhanced Components: Benefit from NextUI's pre-designed components like buttons 
 4. Tailwind CSS
 
 5. NextUI
+
+A live version of this application is available [here](https://quizmania-phi.vercel.app).
 
 ![Screenshot of the home page of Quizmania application]
 
