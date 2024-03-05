@@ -25,15 +25,19 @@ Enhanced Components: Benefit from NextUI's pre-designed components like buttons 
 
 ## Technologies Used
 
-1.React
+1. React
 
-2.Vite
+2. Vite
 
-3.React Query
+3. React Query
 
-4.Tailwind CSS
+4. Tailwind CSS
 
-5.NextUI
+5. NextUI
+
+![Screenshot of the home page of Quizmania application]
+
+<img width="1440" alt="Screenshot 2024-01-15 at 12 42 16 pm" src="https://github.com/kieronthomas132/quizmania/blob/main/src/assets/quizmania.png">
 
 # Acknowledgments
 
